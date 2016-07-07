@@ -6,7 +6,7 @@ This provides a few useful utilities for processing strings in c++. It has no ex
 
 The project has a BUILD file intended to be used within a Bazel workspace. It would be easy to add to any other build system though.
 
-To use with Bazel, add the repo to your Bazel workspace. At its simplest this involves creating a directory with an empty file named WORKSPACE and preferably a third_party directory to hold external libraries. Add the repo to that directory and then, assuming your directory is named strings,  run
+To use with Bazel, add the repo to your Bazel workspace. At its simplest this involves creating a directory with an empty file named WORKSPACE and preferably a third_party directory to hold external libraries. Add the repo to that directory and then, assuming your directory is named strings, run test:
      
      > ls
      WORKSPACE third_party/
