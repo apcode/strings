@@ -10,7 +10,7 @@ To use with Bazel, add the repo to your Bazel workspace. At its simplest this in
      
      > ls
      WORKSPACE third_party/
-     > git clone https://github.com/apcode/cppstrings.git third_party/strings
+     > git submodule add  https://github.com/apcode/cppstrings.git third_party/strings
      > bazel test strings:strings_test
 
 ## Usage
