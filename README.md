@@ -15,7 +15,7 @@ To use with Bazel, add the repo to your Bazel workspace. At its simplest this in
 
 ## Usage
 
-For full examples of how to use, see the unit tests in strigs_test.cpp.
+For full examples of how to use, see the unit tests in strings_test.cpp.
 
 Some examples:
 
